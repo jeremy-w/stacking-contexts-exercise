@@ -10,11 +10,11 @@ import HelpButton from "./HelpButton";
 export default function App() {
   return (
     <Wrapper>
-      <HelpButton />
       <HeaderWrapper>
         <Header />
       </HeaderWrapper>
       <PageContent />
+      <HelpButton />
       <GlobalStyles />
     </Wrapper>
   );
